@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-data = pd.read_csv("path/to/framingham.csv")
+data = pd.read_csv("framingham.csv")
 
 # Drop rows with missing values (for simplicity)
 data = data.dropna()
